@@ -1,0 +1,80 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5366306403,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchTestDefinitions.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Locate Stockholm",
+        "description": "",
+        "id": "it-should-be-possible-to-search-for-places-at-the-norwegian-meteorological-institute,-http://www.yr.no;locate-stockholm",
+        "after": [
+          {
+            "result": {
+              "duration": 1547406793,
+              "status": "passed"
+            },
+            "match": {
+              "location": "SearchTestDefinitions.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 970963628,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "navigate to url",
+            "match": {
+              "location": "SearchTestDefinitions.toUrl()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1122476809,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "search for word",
+            "match": {
+              "location": "SearchTestDefinitions.word()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 47661854,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "results appear",
+            "match": {
+              "location": "SearchTestDefinitions.appars()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "It should be possible to search for places at the Norwegian Meteorological Institute, http://www.yr.no",
+    "description": "",
+    "id": "it-should-be-possible-to-search-for-places-at-the-norwegian-meteorological-institute,-http://www.yr.no",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]
