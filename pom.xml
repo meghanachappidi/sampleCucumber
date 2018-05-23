@@ -54,12 +54,7 @@
               <artifactId>cucumber-reports</artifactId>
               <version>0.0.5</version>
             </dependency>
-            <dependency>
-            <groupId>com.fitch.emailClient</groupId>
-            <artifactId>email_client_api</artifactId>
-            <version>1.0.2-SNAPSHOT</version>
-        </dependency>
-
+            
 	</dependencies>
 	
 	<build>
