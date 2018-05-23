@@ -33,7 +33,7 @@ public class SearchTestDefinitions  {
 
     @Before
     public void setUp() {
-    	System.setProperty("webdriver.chrome.driver", "/user/local/bin/chromedriver");	
+    	System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");	
 		ChromeOptions options = new ChromeOptions();
         options.addArguments("--headless","window-size=1024,768","--no-sandbox");
 		driver=new ChromeDriver(options);
